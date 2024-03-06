@@ -1,0 +1,24 @@
+{
+  "name": "playwright_test",
+  "version": "1.41.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Choice": "npx playwright test Prueba_Choice_Cont.spec.js",
+    "Youtube2": "npx playwright test Curso_24/tests/TST_Youtube_DropDow.spec.js",
+    "Youtube": "npx playwright test Curso_24/tests/TST_Youtube_Example.spec.js",
+    "Locators": "npx playwright test Curso_24/tests/Locators.spec.js",
+    "Alerts": "npx playwright test Curso_24/tests/TST_Yotube_Alerts.spec",
+    "Date": "npx playwright test Curso_24/tests/TST_Youtube_Calen_Date.spec.js",
+    "Hover": "npx playwright test Curso_24/tests/TST_Youtube_Hover.spec.js",
+    "Hooks": "npx playwright test Curso_24/tests/TST_Hooks.spec.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.3"
+  }
+}
